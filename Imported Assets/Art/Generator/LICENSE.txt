@@ -1,0 +1,13 @@
+Simple Commercial License
+
+You are allowed to:
+- Use this model in personal and commercial projects
+- Use it in video games, renders, prototypes, or animations
+- Modify it to suit your needs
+
+You are **not** allowed to:
+- Resell or redistribute the model as-is
+- Upload it to asset banks or marketplaces as your own work
+
+Credit is not required, but appreciated:  
+"Model by Fabriciomunk"

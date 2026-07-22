@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b7q12qmsksbc7"
+path="res://.godot/imported/footstep_concrete_000.ogg-1076c73dc8b13b0572c9081f9ce6fb10.oggvorbisstr"
+
+[deps]
+
+source_file="res://Imported Assets/Scripts/Godot-Third-Person-Controller-82745fba657f2a0486e8625555476f0bbacb36b6/addons/JehenoThirdPersonController/PlayerCharacter/Sounds/footstep_concrete_000.ogg"
+dest_files=["res://.godot/imported/footstep_concrete_000.ogg-1076c73dc8b13b0572c9081f9ce6fb10.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

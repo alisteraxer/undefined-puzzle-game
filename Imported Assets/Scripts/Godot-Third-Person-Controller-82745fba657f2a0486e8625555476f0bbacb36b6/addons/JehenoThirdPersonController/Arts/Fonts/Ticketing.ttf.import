@@ -1,0 +1,41 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://dewgtcm8moxxi"
+path="res://.godot/imported/Ticketing.ttf-6f64deead4d6c07889918c8d8393f1da.fontdata"
+
+[deps]
+
+source_file="res://Imported Assets/Scripts/Godot-Third-Person-Controller-82745fba657f2a0486e8625555476f0bbacb36b6/addons/JehenoThirdPersonController/Arts/Fonts/Ticketing.ttf"
+dest_files=["res://.godot/imported/Ticketing.ttf-6f64deead4d6c07889918c8d8393f1da.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+disable_embedded_bitmaps=true
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+modulate_color_glyphs=false
+hinting=1
+subpixel_positioning=4
+keep_rounding_remainders=true
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[{
+"chars": [],
+"glyphs": [],
+"name": "New Configuration",
+"size": Vector2i(16, 0)
+}]
+language_support={}
+script_support={}
+opentype_features={}

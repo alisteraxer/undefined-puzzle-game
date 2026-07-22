@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bo5v57c5psx8l"
+path="res://.godot/imported/TopPlastic_Straight.obj-0142bd95ef2b63624a59a942fcf028ae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/TopPlastic_Straight.obj-0142bd95ef2b63624a59a942fcf028ae.mesh"]
+
+source_file="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/OBJ/Walls/TopPlastic_Straight.obj"
+dest_files=["res://.godot/imported/TopPlastic_Straight.obj-0142bd95ef2b63624a59a942fcf028ae.mesh", "res://.godot/imported/TopPlastic_Straight.obj-0142bd95ef2b63624a59a942fcf028ae.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

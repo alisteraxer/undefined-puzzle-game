@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dwjb6q4kdfdg4"
+path="res://.godot/imported/TopSimple_Corner_Round_Inner.obj-721fb81bcecdce71eb46c30c6ef2e0ed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/TopSimple_Corner_Round_Inner.obj-721fb81bcecdce71eb46c30c6ef2e0ed.mesh"]
+
+source_file="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/OBJ/Walls/TopSimple_Corner_Round_Inner.obj"
+dest_files=["res://.godot/imported/TopSimple_Corner_Round_Inner.obj-721fb81bcecdce71eb46c30c6ef2e0ed.mesh", "res://.godot/imported/TopSimple_Corner_Round_Inner.obj-721fb81bcecdce71eb46c30c6ef2e0ed.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

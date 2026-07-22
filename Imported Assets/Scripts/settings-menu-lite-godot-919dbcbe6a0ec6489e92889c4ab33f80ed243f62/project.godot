@@ -1,0 +1,18 @@
+; Engine configuration file.
+; Settings Menu Lite demo project — Godot 4.4+
+
+config_version=5
+
+[application]
+
+config/name="Settings Menu Lite Demo"
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+
+[autoload]
+
+GameSettings="*res://addons/settings_menu/game_settings.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/settings_menu/plugin.cfg")

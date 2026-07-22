@@ -1,0 +1,5 @@
+.godot/
+_selftest.gd
+_selftest.gd.uid
+_selftest.tscn
+export_presets.cfg

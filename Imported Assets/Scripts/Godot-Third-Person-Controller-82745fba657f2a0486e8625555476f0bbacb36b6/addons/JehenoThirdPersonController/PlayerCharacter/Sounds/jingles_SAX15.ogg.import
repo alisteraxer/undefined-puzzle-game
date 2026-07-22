@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bly24bd3apvev"
+path="res://.godot/imported/jingles_SAX15.ogg-1866e61f80968f3a07cb79d1c562ca38.oggvorbisstr"
+
+[deps]
+
+source_file="res://Imported Assets/Scripts/Godot-Third-Person-Controller-82745fba657f2a0486e8625555476f0bbacb36b6/addons/JehenoThirdPersonController/PlayerCharacter/Sounds/jingles_SAX15.ogg"
+dest_files=["res://.godot/imported/jingles_SAX15.ogg-1866e61f80968f3a07cb79d1c562ca38.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
