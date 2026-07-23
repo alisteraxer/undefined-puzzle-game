@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://d4dmqr8nq44ma"]
+
+[ext_resource type="PackedScene" uid="uid://d4fyrftoxocx" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Platforms/Door_DarkMetal.fbx" id="1_0ujau"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_koawd"]
+size = Vector3(2.1011353, 4.0321045, 0.20422363)
+
+[node name="Door_DarkMetal" unique_id=1747364723 instance=ExtResource("1_0ujau")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1456765851]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0539143, 2.0308852, -0.0022583008)
+shape = SubResource("BoxShape3D_koawd")

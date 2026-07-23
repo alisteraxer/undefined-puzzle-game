@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://e8a3jpx10ahu"]
+
+[ext_resource type="PackedScene" uid="uid://bjm4yk0iaxxsf" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Platforms/Platform_Window_Wide.fbx" id="1_yhvob"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_werjc"]
+size = Vector3(3.9771729, 0.3125, 3.9976807)
+
+[node name="Platform_Window_Wide" unique_id=1923303616 instance=ExtResource("1_yhvob")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1391736023]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00091552734, -0.11035156, 0.011047363)
+shape = SubResource("BoxShape3D_werjc")

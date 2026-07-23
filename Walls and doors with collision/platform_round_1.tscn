@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://co8h2krb4crnf"]
+
+[ext_resource type="PackedScene" uid="uid://qy388daqisdl" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Platforms/Platform_Round1.fbx" id="1_vybke"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_koawd"]
+height = 0.21569824
+radius = 2.991211
+
+[node name="Platform_Round1" unique_id=1526353344 instance=ExtResource("1_vybke")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1643467197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0708068, 0)
+shape = SubResource("CylinderShape3D_koawd")

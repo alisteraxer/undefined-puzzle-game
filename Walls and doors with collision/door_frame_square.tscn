@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bf16h77e6ncma"]
+
+[ext_resource type="PackedScene" uid="uid://iwjnd76y26em" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Platforms/Door_Frame_Square.fbx" id="1_64v6a"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_werjc"]
+size = Vector3(1.2406006, 4.9815674, 0.5259094)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_unfax"]
+size = Vector3(2.4057922, 1.7492828, 0.5259094)
+
+[node name="Door_Frame_Square" unique_id=1089930473 instance=ExtResource("1_64v6a")]
+
+[node name="Door_Frame_Square" parent="." index="0" unique_id=511325042]
+transform = Transform3D(100, 0, 0, 0, -1.1920929e-05, 99.99999, 0, -99.99999, -1.1920929e-05, 6.1273575e-05, -0.0071310997, -0.0041418076)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=556022911]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8152466, 2.5038044, 0.0027923584)
+shape = SubResource("BoxShape3D_werjc")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=407243599]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8091464, 2.5038044, 0.0027923584)
+shape = SubResource("BoxShape3D_werjc")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1582593562]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0053914785, 4.1490574, 0.0027923584)
+shape = SubResource("BoxShape3D_unfax")

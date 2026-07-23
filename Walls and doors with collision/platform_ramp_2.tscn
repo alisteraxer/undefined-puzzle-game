@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://8iqpoo4ifd5y"]
+
+[ext_resource type="PackedScene" uid="uid://bds3k2hnml2gr" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Platforms/Platform_Ramp_2.fbx" id="1_78yri"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ev6oa"]
+size = Vector3(2.0031738, 0.073913574, 2.2054062)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lu5ut"]
+size = Vector3(2.0031738, 0.073913574, 1.870697)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lx0s8"]
+size = Vector3(2.0037231, 0.073913574, 0.91047287)
+
+[node name="Platform_Ramp_2" unique_id=137051750 instance=ExtResource("1_78yri")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1978538481]
+transform = Transform3D(1, 0, 0, 0, 0.8928411, -0.4503719, 0, 0.4503719, 0.8928411, -0.0074243546, 0.47496915, 0.98368627)
+shape = SubResource("BoxShape3D_ev6oa")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=116235893]
+transform = Transform3D(1, 0, 0, 0, 0.99982595, -0.01865697, 0, 0.01865697, 0.99982595, 0.0017309189, 0.043431684, 0.9318561)
+shape = SubResource("BoxShape3D_lu5ut")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1208516199]
+transform = Transform3D(1, 0, 0, 0, -0.04238914, -0.9991012, 0, 0.9991012, -0.04238914, 0.0038366318, 0.5042231, 0.021267952)
+shape = SubResource("BoxShape3D_lx0s8")

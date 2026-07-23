@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bl1q2a4ydiumm"]
+
+[ext_resource type="PackedScene" uid="uid://b8j72wsgyy85l" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Platforms/Platform_Stairs_2.fbx" id="1_ds647"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_werjc"]
+size = Vector3(2.0111084, 0.037353516, 1.9086914)
+
+[node name="Platform_Stairs_2" unique_id=854360191 instance=ExtResource("1_ds647")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1705627151]
+transform = Transform3D(1, 0, 0, 0, 0.8906281, -0.45473263, 0, 0.45473263, 0.8906281, 0.020202637, 0.5168001, 0.99278706)
+shape = SubResource("BoxShape3D_werjc")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=263925122]
+transform = Transform3D(1, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0.020202637, 0.006337974, 0.9564804)
+shape = SubResource("BoxShape3D_werjc")

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cxmmqrxag2krm"]
+
+[ext_resource type="PackedScene" uid="uid://bgkmxyw21pc1m" path="res://Imported Assets/Scripts/Godot-Third-Person-Controller-82745fba657f2a0486e8625555476f0bbacb36b6/addons/JehenoThirdPersonController/PlayerCharacter/player_character_scene.tscn" id="1_3bplq"]
+
+[node name="Node3D" type="Node3D" unique_id=433456180]
+
+[node name="PlayerCharacter" parent="." unique_id=841616460 instance=ExtResource("1_3bplq")]

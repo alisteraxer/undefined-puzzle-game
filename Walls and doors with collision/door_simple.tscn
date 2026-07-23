@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dof071a6ugodn"]
+
+[ext_resource type="PackedScene" uid="uid://dlpc5kmrph7oa" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Platforms/Door_Simple.fbx" id="1_8hilo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_koawd"]
+size = Vector3(2.0825195, 4.0561523, 0.2878418)
+
+[node name="Door_Simple" unique_id=1420764055 instance=ExtResource("1_8hilo")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=500268715]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.047962, 2.0287342, 0.0028076172)
+shape = SubResource("BoxShape3D_koawd")
