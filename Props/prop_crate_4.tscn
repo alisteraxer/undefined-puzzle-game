@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bn621pj2wcg1l"]
+
+[ext_resource type="PackedScene" uid="uid://6pw1qgruigpe" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Props/Prop_Crate4.fbx" id="1_3wsuo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f7e2x"]
+
+[node name="Prop_Crate4" unique_id=2024404808 instance=ExtResource("1_3wsuo")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=228722028]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=1018166661]
+shape = SubResource("BoxShape3D_f7e2x")

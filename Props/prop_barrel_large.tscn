@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://sqy3krr7l2e8"]
+
+[ext_resource type="PackedScene" uid="uid://dva7bqyxcsyf3" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Props/Prop_Barrel_Large.fbx" id="1_vcxac"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vydhe"]
+size = Vector3(0.56152344, 1.1020508, 0.58203125)
+
+[node name="Prop_Barrel_Large" unique_id=959023546 instance=ExtResource("1_vcxac")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=1447798578]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=386030932]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5456543, 0)
+shape = SubResource("BoxShape3D_vydhe")

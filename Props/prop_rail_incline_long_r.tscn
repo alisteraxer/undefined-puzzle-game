@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c2rvna4dmrjid"]
+
+[ext_resource type="PackedScene" uid="uid://c4uyi5hqp4nw" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Props/Prop_Rail_Incline_Long_R.fbx" id="1_jbexc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_om68r"]
+size = Vector3(0.28045654, 2.7131348, 3.9603882)
+
+[node name="Prop_Rail_Incline_Long_R" unique_id=736740222 instance=ExtResource("1_jbexc")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=1706365856]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=761367905]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.088409424, 1.3511963, 2.052887)
+shape = SubResource("BoxShape3D_om68r")

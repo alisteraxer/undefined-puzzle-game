@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://tmh1tmgjqiuv"]
+
+[ext_resource type="PackedScene" uid="uid://dr3014bqg85nq" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Props/Prop_PipeHolder.fbx" id="1_jykdd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f7e2x"]
+size = Vector3(4.1032715, 0.9354248, 1.1601563)
+
+[node name="Prop_PipeHolder" unique_id=1477419796 instance=ExtResource("1_jykdd")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=650076885]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=168532742]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.006225586, 0.46136475, 0.001953125)
+shape = SubResource("BoxShape3D_f7e2x")

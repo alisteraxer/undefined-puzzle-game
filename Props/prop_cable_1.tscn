@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b7pg4wg7vfq78"]
+
+[ext_resource type="PackedScene" uid="uid://cd2nwyl41lbgp" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Props/Prop_Cable_1.fbx" id="1_uu41j"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vydhe"]
+size = Vector3(1, 0.18676758, 1.6422424)
+
+[node name="Prop_Cable_1" unique_id=1781738198 instance=ExtResource("1_uu41j")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=1741180656]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=1626406122]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06750488, 0.24949646)
+shape = SubResource("BoxShape3D_vydhe")

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://buepjtqo3ng31"]
+
+[ext_resource type="PackedScene" uid="uid://cgspm1kp0r5b6" path="res://Imported Assets/Art/Modular SciFi MegaKit[Standard]/FBX/Props/Prop_Clamp.fbx" id="1_8eosw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f7e2x"]
+size = Vector3(0.59277344, 0.18743896, 0.4885254)
+
+[node name="Prop_Clamp" unique_id=289957922 instance=ExtResource("1_8eosw")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=2083632946]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=1718678153]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.057128906, 0.07803345, -0.0052490234)
+shape = SubResource("BoxShape3D_f7e2x")
