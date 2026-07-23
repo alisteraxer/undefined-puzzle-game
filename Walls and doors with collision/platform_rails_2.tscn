@@ -7,10 +7,12 @@ size = Vector3(0.26757813, 1.5290527, 1.9975586)
 
 [node name="Platform_Rails_2" unique_id=437900574 instance=ExtResource("1_w57nl")]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2087644185]
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=708198359]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=2087644185]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9909109, 0.9288659, 0.98946744)
 shape = SubResource("BoxShape3D_werjc")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=155466305]
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" index="1" unique_id=155466305]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.071663, 0.9288659, 0.98946744)
 shape = SubResource("BoxShape3D_werjc")

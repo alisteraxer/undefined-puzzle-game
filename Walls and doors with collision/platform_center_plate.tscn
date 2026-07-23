@@ -7,6 +7,8 @@ size = Vector3(3.9922485, 0.07611084, 3.9980469)
 
 [node name="Platform_CenterPlate" unique_id=1412056306 instance=ExtResource("1_blhsv")]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1744261944]
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=1640105876]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=1744261944]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0047912598, -0.012664795, 0.001953125)
 shape = SubResource("BoxShape3D_koawd")

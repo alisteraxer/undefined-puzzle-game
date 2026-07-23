@@ -7,6 +7,8 @@ size = Vector3(3.9351196, 0.17059326, 3.9523926)
 
 [node name="Platform_Metal" unique_id=1635400371 instance=ExtResource("1_08bc1")]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=638419625]
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=1489775710]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=638419625]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0035705566, -0.008026123, -0.008666992)
 shape = SubResource("BoxShape3D_werjc")

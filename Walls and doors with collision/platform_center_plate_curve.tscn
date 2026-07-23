@@ -11,14 +11,16 @@ size = Vector3(2.256836, 0.064697266, 1.9086914)
 
 [node name="Platform_CenterPlate_Curve" unique_id=1172031405 instance=ExtResource("1_on2y8")]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=227975611]
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=1347520958]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=227975611]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2889006, -0.010139063, 0.35342312)
 shape = SubResource("CylinderShape3D_gi0gh")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=494298585]
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" index="1" unique_id=494298585]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.86345303, -0.010375977, -0.97966826)
 shape = SubResource("BoxShape3D_werjc")
 
-[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=832876215]
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D" index="2" unique_id=832876215]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.86911106, -0.010375977, 1.055451)
 shape = SubResource("BoxShape3D_werjc")

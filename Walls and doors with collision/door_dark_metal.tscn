@@ -7,6 +7,8 @@ size = Vector3(2.1011353, 4.0321045, 0.20422363)
 
 [node name="Door_DarkMetal" unique_id=1747364723 instance=ExtResource("1_0ujau")]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1456765851]
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=697692063]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=1456765851]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0539143, 2.0308852, -0.0022583008)
 shape = SubResource("BoxShape3D_koawd")
