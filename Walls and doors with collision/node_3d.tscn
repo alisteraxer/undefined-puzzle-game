@@ -1,7 +1,53 @@
 [gd_scene format=3 uid="uid://cxmmqrxag2krm"]
 
 [ext_resource type="PackedScene" uid="uid://bgkmxyw21pc1m" path="res://Imported Assets/Scripts/Godot-Third-Person-Controller-82745fba657f2a0486e8625555476f0bbacb36b6/addons/JehenoThirdPersonController/PlayerCharacter/player_character_scene.tscn" id="1_3bplq"]
+[ext_resource type="ArrayMesh" uid="uid://7cd6ymhamlxw" path="res://Imported Assets/Art/Arachnid/Arachnoid.obj" id="2_42qc8"]
+[ext_resource type="ArrayMesh" uid="uid://pfgpu7keqhkg" path="res://Imported Assets/Art/Companion bot/Companion-bot.obj" id="3_ph8wh"]
+[ext_resource type="ArrayMesh" uid="uid://c3cvmdnvpqsxl" path="res://Imported Assets/Art/Dictators/Dictators-1.obj" id="4_43vq5"]
+[ext_resource type="PackedScene" uid="uid://clstu4id8kvwm" path="res://Imported Assets/Art/Generator/generator.fbx" id="5_6gvyy"]
+[ext_resource type="ArrayMesh" uid="uid://vgwwmos1p5io" path="res://Imported Assets/Art/Phone addict/PhoneAddict-1-Man.obj" id="6_wh5sb"]
+[ext_resource type="ArrayMesh" uid="uid://bqv6ttcv7gma7" path="res://Imported Assets/Art/Workers/NeoSlavery-1.obj" id="7_ih3vj"]
+[ext_resource type="PackedScene" uid="uid://bf16h77e6ncma" path="res://Walls and doors with collision/door_frame_square.tscn" id="8_e8xwm"]
+[ext_resource type="PackedScene" uid="uid://betaoplv0dgij" path="res://Walls and doors with collision/platform_center_plate.tscn" id="9_8amlc"]
 
 [node name="Node3D" type="Node3D" unique_id=433456180]
 
 [node name="PlayerCharacter" parent="." unique_id=841616460 instance=ExtResource("1_3bplq")]
+
+[node name="Arachnoid" type="MeshInstance3D" parent="." unique_id=587518434]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9470816, 0, 4.348932)
+mesh = ExtResource("2_42qc8")
+
+[node name="CompanionBot" type="MeshInstance3D" parent="." unique_id=2002357604]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0313234, 0, -0.7397518)
+mesh = ExtResource("3_ph8wh")
+
+[node name="Dictators1" type="MeshInstance3D" parent="." unique_id=739368595]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0266676, 0, 2.5833979)
+mesh = ExtResource("4_43vq5")
+
+[node name="generator" parent="." unique_id=1382017547 instance=ExtResource("5_6gvyy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0092020035, -4.7683716e-07, 7.415427)
+
+[node name="PhoneAddict1Man" type="MeshInstance3D" parent="." unique_id=1529738086]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0286818, 4.7683716e-07, 6.876064)
+mesh = ExtResource("6_wh5sb")
+
+[node name="NeoSlavery1" type="MeshInstance3D" parent="." unique_id=1464633412]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2764177, 0, 6.107705)
+mesh = ExtResource("7_ih3vj")
+
+[node name="Door_Frame_Square" parent="." unique_id=1089930473 instance=ExtResource("8_e8xwm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7123938, 0, -2.7978325)
+
+[node name="Platform_CenterPlate" parent="." unique_id=1412056306 instance=ExtResource("9_8amlc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.215176, 0, -4.4995327)
+
+[node name="Platform_CenterPlate2" parent="." unique_id=92832257 instance=ExtResource("9_8amlc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.215176, 0, -4.4995327)
+
+[node name="Platform_CenterPlate3" parent="." unique_id=1820632770 instance=ExtResource("9_8amlc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.932731, 0, -4.4995327)
+
+[node name="Platform_CenterPlate4" parent="." unique_id=638222969 instance=ExtResource("9_8amlc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.932731, 0, -8.288849)
